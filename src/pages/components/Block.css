@@ -1,0 +1,212 @@
+.block {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-header {
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    z-index: 1;
+    border-radius: 0;
+    animation: slideInFromTop 0.5s ease-out;
+}
+
+.block-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-diameter-container {
+    margin-bottom: 10px;
+}
+
+.block-diameter {
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+.block-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.quantity-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 30%;
+    animation: fadeIn 1s ease-out;
+}
+
+.quantity-btn:hover {
+    background-color: darkorange;
+}
+
+.quantity-input {
+    width: 30%;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    animation: fadeIn 1s ease-out;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.buy-btn {
+    background-color: #ff8c00ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    padding: 6px 6px;
+    width: 50%;
+    animation: fadeIn 1s ease-out;
+}
+
+.buy-btn:hover {
+    background-color: #FFA500;
+}
+
+.cart-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.block-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-out;
+}
+
+.block {
+    width: 300px;
+    margin: 10px;
+    animation: slideUp 0.5s ease-out;
+}
+
+@media (max-width: 1550px) {
+    .block-container {
+        grid-template-columns: repeat(3, 3fr);
+    }
+    .block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .block-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .block-container {
+        grid-template-columns: 1fr;
+    }
+    .block {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Устанавливаем общий фон для всего экрана */
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Фон для контейнера корзины */
+  animation: fadeIn 1s ease-out;
+}
+
+.cart-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  animation: slideInFromTop 0.5s ease-out;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  animation: fadeIn 1s ease-out;
+  background-color: #f9f9f9; /* Убираем разделение на фон */
+}
+
+.cart-items > div {
+  width: 350px;
+  height: 370px;
+  box-sizing: border-box;
+  animation: scaleUp 0.3s ease-out;
+}
+
+.cart-footer {
+  margin-top: 20px;
+  animation: fadeIn 1s ease-out;
+}
+
+.order-button {
+  width: 350px;
+  padding: 10px 20px;
+  background-color: #ff8c00ef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  animation: slideUp 0.5s ease-out;
+}
+
+.order-button:hover {
+  background-color: #FFA500;
+}
+
+.order-form-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Добавляем полупрозрачный фон для модальных окон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-out;
+}
+
+.order-form-container, .order-confirmation-container {
+  background-color: #f9f9f9; /* Единый фон для всех форм */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 400px;
+  animation: slideInFromLeft 0.5s ease-out;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.close-button {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-button, .close-button, .close-confirmation-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
