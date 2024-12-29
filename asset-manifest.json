@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/SHUROOM/static/css/main.b8b9d47c.css",
+    "main.js": "/SHUROOM/static/js/main.0442c656.js",
+    "static/js/453.ed3810f9.chunk.js": "/SHUROOM/static/js/453.ed3810f9.chunk.js",
+    "static/media/onion.jpg": "/SHUROOM/static/media/onion.0ff1f2701a46f5fe6509.jpg",
+    "static/media/lipton.jpg": "/SHUROOM/static/media/lipton.d45ccc72d7772f293f15.jpg",
+    "static/media/classic.jpg": "/SHUROOM/static/media/classic.9f2cd6c1a4e613ee885f.jpg",
+    "static/media/mors.jpg": "/SHUROOM/static/media/mors.b640513a13701709f599.jpg",
+    "static/media/naggetsy.jpg": "/SHUROOM/static/media/naggetsy.1619a110857f51187087.jpg",
+    "static/media/cheburek.jpg": "/SHUROOM/static/media/cheburek.75e35240f58ad72675d4.jpg",
+    "static/media/chili.jpg": "/SHUROOM/static/media/chili.e7dd9fbcf28af2d5b799.jpg",
+    "static/media/cheese.jpg": "/SHUROOM/static/media/cheese.fcadd578809695b5e8ae.jpg",
+    "static/media/cocacola.jpg": "/SHUROOM/static/media/cocacola.cd98996b73bbe77296d1.jpg",
+    "static/media/gorchica.jpg": "/SHUROOM/static/media/gorchica.018f027551e4bcea3dcd.jpg",
+    "static/media/barbequ.jpg": "/SHUROOM/static/media/barbequ.2499046403b90907f148.jpg",
+    "static/media/mushrom.jpg": "/SHUROOM/static/media/mushrom.7011e54574017af5b96b.jpg",
+    "static/media/interier.jpg": "/SHUROOM/static/media/interier.5b11471fae5af6ef9a41.jpg",
+    "static/media/cart.png": "/SHUROOM/static/media/cart.969aa2c28d2254611ec7.png",
+    "static/media/cheeseSause.jpg": "/SHUROOM/static/media/cheeseSause.eb1d9762d1379a7f6d7a.jpg",
+    "static/media/pepper.jpg": "/SHUROOM/static/media/pepper.f28e0359ce4e9c9f44a6.jpg",
+    "static/media/sok.jpg": "/SHUROOM/static/media/sok.acd5628ff04431bfea78.jpg",
+    "static/media/location.png": "/SHUROOM/static/media/location.5db7080f349306ec8f08.png",
+    "static/media/logo.png": "/SHUROOM/static/media/logo.d446f3c65bf62efd8896.png",
+    "index.html": "/SHUROOM/index.html",
+    "main.b8b9d47c.css.map": "/SHUROOM/static/css/main.b8b9d47c.css.map",
+    "main.0442c656.js.map": "/SHUROOM/static/js/main.0442c656.js.map",
+    "453.ed3810f9.chunk.js.map": "/SHUROOM/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8b9d47c.css",
+    "static/js/main.0442c656.js"
+  ]
+}
